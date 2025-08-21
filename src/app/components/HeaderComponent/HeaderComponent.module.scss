@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #e0e0e0;
+    padding: 16px 32px;
+    background: #fff;
+}
+
+.nav {
+    display: flex;
+    gap: 32px;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: currentColor;
+
+    a {
+        color: darkgray;
+    }
+}
+
+.headerTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: darkgray;
+    letter-spacing: 2px;
+    padding-left: 15px;
+
+
+}
+
+.headerNav {
+    display: flex;
+}
+
+.headerNavList {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    margin: 20px;
+    padding: 30px;
+}
+
+.headerNavList li a {
+    font-size: 1.1rem;
+    color: darkgray;
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+        color: #3182ce;
+    }
+}
